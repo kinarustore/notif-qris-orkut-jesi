@@ -1,1 +1,0 @@
-# notif-qris-orkut-razee
