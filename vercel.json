@@ -1,0 +1,16 @@
+
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/notifikasi-masuk.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/notifikasi-masuk",
+      "dest": "api/notifikasi-masuk.js"
+    }
+  ]
+}
